@@ -58,6 +58,9 @@ set autoread
 let mapleader = ","
 let g:mapleader = ","
 
+" so I can check this leader shit
+nnoremap <leader>a :echo("\<leader\> works! It is set to <leader>")<CR>
+
 " Fast saving
 nmap <leader>w :w!<cr>
 
@@ -147,7 +150,7 @@ set foldcolumn=1
 syntax enable 
 
 try
-    colorscheme desert
+    colorscheme darkblue
 catch
 endtry
 
